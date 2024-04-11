@@ -1,0 +1,40 @@
+﻿@{
+    ViewBag.Title = "Inicio de sesión";
+}
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<style>
+    .logo{
+        width: 150px;
+        height: 150px;
+    }
+</style>
+<div class="container text-center">
+    <img src="~/assets/images/logo.png" class="logo"/>
+</div>
+<br />
+
+@using (Html.BeginForm("Login", "Login", FormMethod.Post))
+{
+    @Html.ValidationSummary(true)
+
+    <div class="container text-center form-control">
+        <div}>
+            @Html.Label("Nombre de usuario:", htmlAttributes: new { @class = "form-label, fw-bold" })
+            <br />
+            @Html.TextBox("username", null, htmlAttributes: new { @class = "form-control text-center" })
+        </div}>
+        <br />
+        <div>
+            @Html.Label("Contraseña:", htmlAttributes: new { @class = "form-label fw-bold"})
+            @Html.Password("password", null, htmlAttributes: new { @class = "form-control text-center"})
+        </div>
+        <br />
+        <input type="submit" value="Iniciar sesión" class="btn btn-success mb-4" />
+        
+        @if (ViewBag.ErrorMessage != null)
+        {
+            <p class="text-center fw-bold text-danger">@ViewBag.ErrorMessage</p>
+        }
+    </div>
+}
+

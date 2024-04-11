@@ -1,0 +1,41 @@
+﻿@model List<PilasTiendaMVC.Pilas.Entities.UsuarioCompra>
+
+@{
+    ViewBag.Title = "Usuarios que Compraron el Producto";
+}
+
+<h2>Usuarios que Compraron el Producto</h2>
+
+@if (Model.Count > 0)
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Usuario</th>
+                <th>Cantidad</th>
+                <th>Fecha</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var compra in Model)
+            {
+                <tr>
+                    <td>@compra.nomUser</td>
+                    <td>@compra.Cantidad</td>
+                    <td>@compra.Fecha.ToString("dd/MM/yyyy")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No hay usuarios que hayan comprado este producto.</p>
+}
+
+@if (!string.IsNullOrEmpty(ViewBag.ErrorMessage))
+{
+    <div class="alert alert-danger" role="alert">
+        @ViewBag.ErrorMessage
+    </div>
+}

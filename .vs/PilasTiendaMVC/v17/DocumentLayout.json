@@ -1,0 +1,304 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\luis8\\OneDrive\\Escritorio\\pilas\\PilasMVC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4EE0141C-48B2-4CD3-AF2F-3F2581FB256D}|PilasTiendaMVC\\PilasTiendaMVC.csproj|c:\\users\\luis8\\onedrive\\escritorio\\pilas\\pilasmvc\\pilastiendamvc\\controllers\\carritocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EE0141C-48B2-4CD3-AF2F-3F2581FB256D}|PilasTiendaMVC\\PilasTiendaMVC.csproj|solutionrelative:pilastiendamvc\\controllers\\carritocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EE0141C-48B2-4CD3-AF2F-3F2581FB256D}|PilasTiendaMVC\\PilasTiendaMVC.csproj|c:\\users\\luis8\\onedrive\\escritorio\\pilas\\pilasmvc\\pilastiendamvc\\controllers\\compradorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EE0141C-48B2-4CD3-AF2F-3F2581FB256D}|PilasTiendaMVC\\PilasTiendaMVC.csproj|solutionrelative:pilastiendamvc\\controllers\\compradorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EE0141C-48B2-4CD3-AF2F-3F2581FB256D}|PilasTiendaMVC\\PilasTiendaMVC.csproj|c:\\users\\luis8\\onedrive\\escritorio\\pilas\\pilasmvc\\pilastiendamvc\\views\\comprador\\listar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4EE0141C-48B2-4CD3-AF2F-3F2581FB256D}|PilasTiendaMVC\\PilasTiendaMVC.csproj|solutionrelative:pilastiendamvc\\views\\comprador\\listar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EE0141C-48B2-4CD3-AF2F-3F2581FB256D}|PilasTiendaMVC\\PilasTiendaMVC.csproj|c:\\users\\luis8\\onedrive\\escritorio\\pilas\\pilasmvc\\pilastiendamvc\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EE0141C-48B2-4CD3-AF2F-3F2581FB256D}|PilasTiendaMVC\\PilasTiendaMVC.csproj|solutionrelative:pilastiendamvc\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EE0141C-48B2-4CD3-AF2F-3F2581FB256D}|PilasTiendaMVC\\PilasTiendaMVC.csproj|c:\\users\\luis8\\onedrive\\escritorio\\pilas\\pilasmvc\\pilastiendamvc\\views\\carrito\\stock.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4EE0141C-48B2-4CD3-AF2F-3F2581FB256D}|PilasTiendaMVC\\PilasTiendaMVC.csproj|solutionrelative:pilastiendamvc\\views\\carrito\\stock.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EE0141C-48B2-4CD3-AF2F-3F2581FB256D}|PilasTiendaMVC\\PilasTiendaMVC.csproj|c:\\users\\luis8\\onedrive\\escritorio\\pilas\\pilasmvc\\pilastiendamvc\\pilas.dal\\piladal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EE0141C-48B2-4CD3-AF2F-3F2581FB256D}|PilasTiendaMVC\\PilasTiendaMVC.csproj|solutionrelative:pilastiendamvc\\pilas.dal\\piladal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EE0141C-48B2-4CD3-AF2F-3F2581FB256D}|PilasTiendaMVC\\PilasTiendaMVC.csproj|c:\\users\\luis8\\onedrive\\escritorio\\pilas\\pilasmvc\\pilastiendamvc\\views\\carrito\\carritovacio.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4EE0141C-48B2-4CD3-AF2F-3F2581FB256D}|PilasTiendaMVC\\PilasTiendaMVC.csproj|solutionrelative:pilastiendamvc\\views\\carrito\\carritovacio.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EE0141C-48B2-4CD3-AF2F-3F2581FB256D}|PilasTiendaMVC\\PilasTiendaMVC.csproj|c:\\users\\luis8\\onedrive\\escritorio\\pilas\\pilasmvc\\pilastiendamvc\\views\\carrito\\comprarcarrito.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4EE0141C-48B2-4CD3-AF2F-3F2581FB256D}|PilasTiendaMVC\\PilasTiendaMVC.csproj|solutionrelative:pilastiendamvc\\views\\carrito\\comprarcarrito.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EE0141C-48B2-4CD3-AF2F-3F2581FB256D}|PilasTiendaMVC\\PilasTiendaMVC.csproj|c:\\users\\luis8\\onedrive\\escritorio\\pilas\\pilasmvc\\pilastiendamvc\\pilas.bll\\negocios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EE0141C-48B2-4CD3-AF2F-3F2581FB256D}|PilasTiendaMVC\\PilasTiendaMVC.csproj|solutionrelative:pilastiendamvc\\pilas.bll\\negocios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EE0141C-48B2-4CD3-AF2F-3F2581FB256D}|PilasTiendaMVC\\PilasTiendaMVC.csproj|c:\\users\\luis8\\onedrive\\escritorio\\pilas\\pilasmvc\\pilastiendamvc\\controllers\\cachecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EE0141C-48B2-4CD3-AF2F-3F2581FB256D}|PilasTiendaMVC\\PilasTiendaMVC.csproj|solutionrelative:pilastiendamvc\\controllers\\cachecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EE0141C-48B2-4CD3-AF2F-3F2581FB256D}|PilasTiendaMVC\\PilasTiendaMVC.csproj|c:\\users\\luis8\\onedrive\\escritorio\\pilas\\pilasmvc\\pilastiendamvc\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EE0141C-48B2-4CD3-AF2F-3F2581FB256D}|PilasTiendaMVC\\PilasTiendaMVC.csproj|solutionrelative:pilastiendamvc\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EE0141C-48B2-4CD3-AF2F-3F2581FB256D}|PilasTiendaMVC\\PilasTiendaMVC.csproj|c:\\users\\luis8\\onedrive\\escritorio\\pilas\\pilasmvc\\pilastiendamvc\\views\\login\\comprador.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4EE0141C-48B2-4CD3-AF2F-3F2581FB256D}|PilasTiendaMVC\\PilasTiendaMVC.csproj|solutionrelative:pilastiendamvc\\views\\login\\comprador.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 22,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b38c6cbc-524d-4f30-8a18-936e3104b734}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3db98ce8-14f0-4b05-9b6a-b9dbe8fa94ab}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{2d4d7b63-2712-49a6-a309-3ff689de5696}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:11:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:275484497:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Stock.cshtml",
+              "DocumentMoniker": "C:\\Users\\luis8\\OneDrive\\Escritorio\\pilas\\PilasMVC\\PilasTiendaMVC\\Views\\Carrito\\Stock.cshtml",
+              "RelativeDocumentMoniker": "PilasTiendaMVC\\Views\\Carrito\\Stock.cshtml",
+              "ToolTip": "C:\\Users\\luis8\\OneDrive\\Escritorio\\pilas\\PilasMVC\\PilasTiendaMVC\\Views\\Carrito\\Stock.cshtml",
+              "RelativeToolTip": "PilasTiendaMVC\\Views\\Carrito\\Stock.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-10T20:36:08.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CarritoVacio.cshtml",
+              "DocumentMoniker": "C:\\Users\\luis8\\OneDrive\\Escritorio\\pilas\\PilasMVC\\PilasTiendaMVC\\Views\\Carrito\\CarritoVacio.cshtml",
+              "RelativeDocumentMoniker": "PilasTiendaMVC\\Views\\Carrito\\CarritoVacio.cshtml",
+              "ToolTip": "C:\\Users\\luis8\\OneDrive\\Escritorio\\pilas\\PilasMVC\\PilasTiendaMVC\\Views\\Carrito\\CarritoVacio.cshtml",
+              "RelativeToolTip": "PilasTiendaMVC\\Views\\Carrito\\CarritoVacio.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-10T20:20:58.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ComprarCarrito.cshtml",
+              "DocumentMoniker": "C:\\Users\\luis8\\OneDrive\\Escritorio\\pilas\\PilasMVC\\PilasTiendaMVC\\Views\\Carrito\\ComprarCarrito.cshtml",
+              "RelativeDocumentMoniker": "PilasTiendaMVC\\Views\\Carrito\\ComprarCarrito.cshtml",
+              "ToolTip": "C:\\Users\\luis8\\OneDrive\\Escritorio\\pilas\\PilasMVC\\PilasTiendaMVC\\Views\\Carrito\\ComprarCarrito.cshtml",
+              "RelativeToolTip": "PilasTiendaMVC\\Views\\Carrito\\ComprarCarrito.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-10T20:19:58.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Negocios.cs",
+              "DocumentMoniker": "C:\\Users\\luis8\\OneDrive\\Escritorio\\pilas\\PilasMVC\\PilasTiendaMVC\\Pilas.BLL\\Negocios.cs",
+              "RelativeDocumentMoniker": "PilasTiendaMVC\\Pilas.BLL\\Negocios.cs",
+              "ToolTip": "C:\\Users\\luis8\\OneDrive\\Escritorio\\pilas\\PilasMVC\\PilasTiendaMVC\\Pilas.BLL\\Negocios.cs",
+              "RelativeToolTip": "PilasTiendaMVC\\Pilas.BLL\\Negocios.cs",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAmwF8AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T20:11:54.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "pilaDAL.cs",
+              "DocumentMoniker": "C:\\Users\\luis8\\OneDrive\\Escritorio\\pilas\\PilasMVC\\PilasTiendaMVC\\Pilas.DAL\\pilaDAL.cs",
+              "RelativeDocumentMoniker": "PilasTiendaMVC\\Pilas.DAL\\pilaDAL.cs",
+              "ToolTip": "C:\\Users\\luis8\\OneDrive\\Escritorio\\pilas\\PilasMVC\\PilasTiendaMVC\\Pilas.DAL\\pilaDAL.cs",
+              "RelativeToolTip": "PilasTiendaMVC\\Pilas.DAL\\pilaDAL.cs",
+              "ViewState": "AQIAAO0BAAAAAAAAAAAqwAACAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T20:11:34.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\luis8\\OneDrive\\Escritorio\\pilas\\PilasMVC\\PilasTiendaMVC\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "PilasTiendaMVC\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\luis8\\OneDrive\\Escritorio\\pilas\\PilasMVC\\PilasTiendaMVC\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "PilasTiendaMVC\\Controllers\\AdminController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T20:07:30.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CacheController.cs",
+              "DocumentMoniker": "C:\\Users\\luis8\\OneDrive\\Escritorio\\pilas\\PilasMVC\\PilasTiendaMVC\\Controllers\\CacheController.cs",
+              "RelativeDocumentMoniker": "PilasTiendaMVC\\Controllers\\CacheController.cs",
+              "ToolTip": "C:\\Users\\luis8\\OneDrive\\Escritorio\\pilas\\PilasMVC\\PilasTiendaMVC\\Controllers\\CacheController.cs",
+              "RelativeToolTip": "PilasTiendaMVC\\Controllers\\CacheController.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAowBQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T20:02:14.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Comprador.cshtml",
+              "DocumentMoniker": "C:\\Users\\luis8\\OneDrive\\Escritorio\\pilas\\PilasMVC\\PilasTiendaMVC\\Views\\Login\\Comprador.cshtml",
+              "RelativeDocumentMoniker": "PilasTiendaMVC\\Views\\Login\\Comprador.cshtml",
+              "ToolTip": "C:\\Users\\luis8\\OneDrive\\Escritorio\\pilas\\PilasMVC\\PilasTiendaMVC\\Views\\Login\\Comprador.cshtml",
+              "RelativeToolTip": "PilasTiendaMVC\\Views\\Login\\Comprador.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-10T19:59:22.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CompradorController.cs",
+              "DocumentMoniker": "C:\\Users\\luis8\\OneDrive\\Escritorio\\pilas\\PilasMVC\\PilasTiendaMVC\\Controllers\\CompradorController.cs",
+              "RelativeDocumentMoniker": "PilasTiendaMVC\\Controllers\\CompradorController.cs",
+              "ToolTip": "C:\\Users\\luis8\\OneDrive\\Escritorio\\pilas\\PilasMVC\\PilasTiendaMVC\\Controllers\\CompradorController.cs",
+              "RelativeToolTip": "PilasTiendaMVC\\Controllers\\CompradorController.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAYwEMAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T19:57:57.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CarritoController.cs",
+              "DocumentMoniker": "C:\\Users\\luis8\\OneDrive\\Escritorio\\pilas\\PilasMVC\\PilasTiendaMVC\\Controllers\\CarritoController.cs",
+              "RelativeDocumentMoniker": "PilasTiendaMVC\\Controllers\\CarritoController.cs",
+              "ToolTip": "C:\\Users\\luis8\\OneDrive\\Escritorio\\pilas\\PilasMVC\\PilasTiendaMVC\\Controllers\\CarritoController.cs",
+              "RelativeToolTip": "PilasTiendaMVC\\Controllers\\CarritoController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC0AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T19:49:27.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Listar.cshtml",
+              "DocumentMoniker": "C:\\Users\\luis8\\OneDrive\\Escritorio\\pilas\\PilasMVC\\PilasTiendaMVC\\Views\\Comprador\\Listar.cshtml",
+              "RelativeDocumentMoniker": "PilasTiendaMVC\\Views\\Comprador\\Listar.cshtml",
+              "ToolTip": "C:\\Users\\luis8\\OneDrive\\Escritorio\\pilas\\PilasMVC\\PilasTiendaMVC\\Views\\Comprador\\Listar.cshtml",
+              "RelativeToolTip": "PilasTiendaMVC\\Views\\Comprador\\Listar.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-10T19:48:04.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\luis8\\OneDrive\\Escritorio\\pilas\\PilasMVC\\PilasTiendaMVC\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "PilasTiendaMVC\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\luis8\\OneDrive\\Escritorio\\pilas\\PilasMVC\\PilasTiendaMVC\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "PilasTiendaMVC\\Controllers\\LoginController.cs",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAswEEAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T19:25:56.843Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{131369f2-062d-44a2-8671-91ff31efb4f4}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

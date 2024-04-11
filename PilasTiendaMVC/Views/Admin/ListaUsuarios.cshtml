@@ -1,0 +1,40 @@
+﻿@model List<PilasTiendaMVC.Pilas.Entities.Usuarios>
+
+@{
+    Layout = "~/Views/Shared/maestra.cshtml";
+
+}
+
+
+<h2 class="text-center mt-4">Listado de Usuarios</h2>
+<br />
+    <table class="table table-responsive table-stríped table-hover text-center">
+        <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Correo</th>
+            <th>Contraseña</th>
+            <th>Rol</th>
+            <th>Acciones</th>
+
+        </tr>
+        @foreach (var usr in Model)
+        {
+            <tr>
+                <td>@usr.idUsuario</td>
+                <td>@usr.nomUser</td>
+                <td>@usr.email</td>
+                <td>@usr.passwd</td>
+                <td>@usr.rol</td>
+                
+                <td>
+                    <button class="btn btn-success text-light">@Html.ActionLink("Ver ventas", "ObtenerVentas", new { usuarioId = usr.idUsuario }, htmlAttributes: new {@class = "text-light text-decoration-none"})</button>
+                </td>
+            </tr>
+        }
+    </table>
+
+@if (ViewBag.ErrorMessage != null)
+{
+    <p>@ViewBag.ErrorMessage</p>
+}

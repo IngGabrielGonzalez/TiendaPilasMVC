@@ -1,0 +1,109 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<style>
+    /* Estilo para fijar el footer en la parte inferior de la página */
+    body {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+
+    .footer {
+        margin-top: auto;
+    }
+    .item{
+        padding: 10px;
+        text-decoration: none;
+        background-color: #0fff
+    }
+    .item:hover{
+        background-color: red;
+    }
+</style>
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" />
+
+    <meta name="viewport" content="width=device-width" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <title></title>
+</head>
+<body>
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="@Url.Action("Comprador", "Login")">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="@Url.Action("Listar", "Comprador")">Catálogo de Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="@Url.Action("Index", "Carrito", "")">Carrito</a>
+                    </li>
+                    <li class="nav-item d-flex">
+                        <div class="container">
+                            @* Botón de Logout *@
+                            @using (Html.BeginForm("Logout", "Login", FormMethod.Post))
+                            {
+                                <input type="submit" class="btn btn-secondary" value="Cerrar sesión">
+                            }
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+
+
+        </nav>
+    </div>
+
+
+    <div class="container body-content mb-5">
+        @RenderBody()
+
+    </div>
+
+
+    <footer class="footer bg-dark text-light py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <h3>Contacto</h3>
+                    <p>Dirección: Antiguo camino a la resurrección, Colombres</p>
+                    <p>Teléfono: (222) 456 78 90</p>
+                    <p>Email: hola@pilasnuevas.com</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <h3>Horarios de Atención</h3>
+                    <p>Lunes a Viernes: 9am - 6pm</p>
+                    <p>Sábados: 10am - 2pm</p>
+                    <p>Domingos: Cerrado</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <h3>Síguenos en Redes Sociales</h3>
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+</body>
+</html>

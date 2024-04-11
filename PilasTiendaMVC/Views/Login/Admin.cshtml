@@ -1,0 +1,20 @@
+﻿
+@{
+    Layout = "~/Views/Shared/maestra.cshtml";
+
+}
+<div class="container d-flex justify-content-end">
+    @using (Html.BeginForm("Logout", "Login", FormMethod.Post))
+    {
+        <input type="submit" class="btn btn-danger" value="Cerrar sesion">
+    }
+</div>
+<div class="container text-center mt-4">
+    <h2>Bienvenido Administrador</h2>
+
+    <p>@Session["Username"]</p>
+    <h5></h5>
+</div>
+
+@* Botón de Logout *@
+

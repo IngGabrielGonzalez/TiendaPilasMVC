@@ -1,0 +1,52 @@
+﻿@model List<PilasTiendaMVC.Pilas.Entities.Pila>
+
+
+@{
+    Layout = "~/Views/Shared/maestra.cshtml";
+
+}
+
+
+<h2>Listado de Pilas</h2>
+
+@if (ViewBag.ErrorMessage != null)
+{
+    <p>@ViewBag.ErrorMessage</p>
+}
+else
+{
+    <table class="table table-responsive table-hover table-striped text-center">
+        <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Presentacion</th>
+            <th>Fecha de Caducidad</th>
+            <th>Precio</th>
+            <th>Imagen</th>
+            <th>Cantidad</th>
+            <th>Acciones</th>
+            
+        </tr>
+        @foreach (var pila in Model)
+        {
+            <tr>
+                <td>@pila.PilaId</td>
+                <td>@pila.Nombre</td>
+                <td>@pila.Descripcion</td>
+                <td>@pila.Fecha</td>
+                <td>@pila.Precio</td>
+                <td><img src="@Url.Content("~/assets/images/" +  pila.Imagen)" width="100"></td>
+                <td>@pila.Stock</td>
+                
+                <td>
+                    <button class="btn btn-success text-light">@Html.ActionLink("Editar", "Editar", new { id = pila.PilaId }, htmlAttributes: new {@class = "text-light text-decoration-none"})</button>
+                    <button class="btn btn-secondary text-light">@Html.ActionLink("Ver ventas", "ObtenerUsuarios", new { idProducto = pila.PilaId}, new { @class = "text-light text-decoration-none" })</button>
+                    <button class="btn btn-danger text-light">@Html.ActionLink("Eliminar", "Eliminar", new { id = pila.PilaId }, new { @class = "text-light text-decoration-none" })</button>
+                    @* Ve las compras realizadas por un Usuario del producto seleccionado *@                        
+                </td>
+            </tr>
+        }
+    </table>
+}
+
+@Html.ActionLink("Menos detalles", "Listar")

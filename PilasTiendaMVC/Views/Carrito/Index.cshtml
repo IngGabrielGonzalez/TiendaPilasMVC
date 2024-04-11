@@ -1,0 +1,75 @@
+﻿@model IEnumerable<PilasTiendaMVC.Pilas.Entities.Pila>
+
+@{
+    Layout = "~/Views/Shared/comp.cshtml";
+    DateTime FechaActual = DateTime.Now;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    @using (Html.BeginForm("ComprarCarrito", "Carrito", FormMethod.Post))
+    {
+        <table class="table">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.PilaId)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Nombre)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Fecha)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Precio)
+                </th>
+                <th>
+                    Cantidad
+                </th>
+                <th></th>
+            </tr>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.PilaId)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Nombre)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => FechaActual)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Precio)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Stock)
+                    </td>
+                    <td>
+                        @Html.ActionLink("Eliminar del carrito", "RemoverDelCarrito", new { id = item.PilaId }, htmlAttributes: new { @class = "text-decoration-none btn btn-warning" })
+                    </td>
+                </tr>
+                @Html.Hidden("id", item.PilaId)
+                @Html.Hidden("nombre", item.Nombre)
+                @Html.Hidden("precio", item.Precio)
+                @Html.Hidden("cantidad", item.Stock)
+
+                @Html.Hidden("precio", item.Fecha)
+
+            }
+        </table>
+        <div class="container text-center">
+            <button type="submit" class="btn btn-success">Comprar</button>
+            @Html.ActionLink("Limpiar Carrito", "LimpiarCarrito", null, htmlAttributes: new { @class = "btn btn-danger text-decoration-none" })
+        </div>
+    }
+</body>
+</html>

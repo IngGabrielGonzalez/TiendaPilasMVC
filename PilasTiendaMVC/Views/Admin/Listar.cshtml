@@ -1,0 +1,33 @@
+﻿@model List<PilasTiendaMVC.Pilas.Entities.Pila>
+
+@{
+    Layout = "~/Views/Shared/maestra.cshtml";
+
+}
+
+<h2>Listado de Pilas</h2>
+
+@if (ViewBag.ErrorMessage != null)
+{
+    <p>@ViewBag.ErrorMessage</p>
+}
+else
+{
+    <table class="table table-responsive table-hover table-striped">
+        <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Precio</th>
+        </tr>
+        @foreach (var pila in Model)
+        {
+            <tr>
+                <td>@pila.PilaId</td>
+                <td>@pila.Nombre</td>
+                <td>@pila.Precio</td>
+            </tr>
+        }
+    </table>
+}
+
+@Html.ActionLink("Más detalles", "Detalles")
